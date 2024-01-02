@@ -1,7 +1,8 @@
 <?php
 
 use App\Http\Controllers\Blog\AuthorController;
-use App\Http\Controllers\blog\BlogDashboardController as BlogBlogDashboardController;
+// use App\Http\Controllers\blog\BlogDashboardController as BlogBlogDashboardController;
+use App\Http\Controllers\blog\BlogBlogDashboardController;
 use App\Http\Controllers\Dashboard\BlogDashboardController;
 use App\Http\Controllers\Blog\BlogSignInController;
 use App\Http\Controllers\Blog\BlogSignUpController;

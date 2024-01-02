@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Http\Controllers\blog;
+namespace App\Http\Controllers\Blog;
 
 use App\Http\Controllers\Controller;
 use App\Http\Requests\PostRequest;
@@ -13,7 +13,7 @@ use Illuminate\Support\Carbon;
 use App\Models\Post;
 use Illuminate\Http\Request;
 
-class BlogDashboardController extends Controller
+class BlogBlogDashboardController extends Controller
 {
     function blogUserDashboard()
     {
