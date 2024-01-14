@@ -13,7 +13,7 @@ class BlogSignInController extends Controller
     {
         return view("blog.signin");
     } // End Method
-    
+
     function blogSignInData(Request $request)
     {
         $request->validate([
